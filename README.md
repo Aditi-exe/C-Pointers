@@ -27,4 +27,15 @@ In the above image, ptr is a pointer that points to the memory address of the va
 
 - Memory allocation: C provides functions like malloc and free to dynamically allocate and deallocate memory at runtime. These functions return pointers to the allocated memory.
 
+
+The syntax for using a pointer is as follows:
+
+```
+datatype *var_name; 
+int *ptr;   // ptr can point to an address which holds int data
+```
+
+**NOTE**: The pointer ptr always stores integer values.  
+
+
 Pointers in C can be tricky to work with and can lead to errors such as segmentation faults if not used carefully. 

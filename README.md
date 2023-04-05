@@ -39,3 +39,5 @@ int *ptr;   // ptr can point to an address which holds int data
 
 
 Pointers in C can be tricky to work with and can lead to errors such as segmentation faults if not used carefully. 
+
+The program file in this repository demonstrates the usage of pointers.
